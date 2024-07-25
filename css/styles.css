@@ -250,12 +250,12 @@ button:focus {
     display: flex;
     justify-content: space-between;
     padding-top: 8px;
-   } 
-
-   .soc-icon {
+   }    
+   .team-soc-icon {
     
    }
 
+   
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -322,4 +322,18 @@ padding-bottom: 16px;
 
 .footer-soc-media {
     width: 208px;
+}
+.footer-soc-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.soc-icon {
+    background-color: #4d5ae5;
+    border-radius:50%;
+}
+
+.soc-icon:hover {    
+    background-color: #31d0aa;
+    
 }
