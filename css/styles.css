@@ -203,6 +203,8 @@ button:focus {
 
 }
 
+
+
 .features-item {
     flex-direction: column;
     align-items: flex-start;
@@ -239,8 +241,20 @@ button:focus {
     flex-wrap: wrap;
 }
 .team-item-description {
-    padding: 32px 0;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;    
     }
+
+   .team-card-soc-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+   } 
+
+   .soc-icon {
+    
+   }
 
 .portfolio {
     padding-top: 120px;
@@ -280,10 +294,32 @@ button:focus {
     color:#F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
 }
 
 .footer-link {    
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.footer-info {
+    max-width: 264px;
+}
+
+.footer-position {
+    display: flex;
+    gap: 100px;
+    /* align-items: top; */
+
+}
+.soc-media-text {
+    font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #fff;
+padding-bottom: 16px;
+}
+
+.footer-soc-media {
+    width: 208px;
 }
