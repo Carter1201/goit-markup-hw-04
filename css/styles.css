@@ -19,22 +19,19 @@ ul,ol {
 img {
     display: block;
 }
-.container {
-    
+.container {    
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;    
 }
 
 /* Header*/
 
 .header {
     align-items: center;
-    border-bottom: 1px solid #E7E9FC;
-    
+    border-bottom: 1px solid #E7E9FC;    
 }
 nav {
     display: flex;
@@ -57,10 +54,10 @@ nav {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 .logo-header {
     color: #2E2F42;
+    margin-right: 76px;
 }
 .nav-list {
     display: flex;
@@ -190,11 +187,27 @@ button:focus {
     gap: 24px;
 }
 
+.features-icon {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-icon-style {
+
+}
+
 .features-item {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-        width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 264px;
     }
 
 .features-item :first-child {
