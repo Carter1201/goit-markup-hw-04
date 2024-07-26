@@ -100,11 +100,16 @@ nav {
 .hero {
     background-color:#2E2F42; 
     padding: 188px 0;
+    background-image: linear-gradient(to bottom,rgba(46, 47, 66, 0.7),  rgba(46, 47, 66, 0.7) ), url(../images/hero-image.jpg);
+    background-position: center center;
+    background-size: auto auto;
+    background-repeat: no-repeat;
 }
+
 .hero-content {
     max-width: 1440px;
     text-align: center;    
-    margin: auto;
+    margin: auto;    
     }
 
 .hero-title {    
@@ -252,7 +257,7 @@ button:focus {
     padding-top: 8px;
    }    
    .team-soc-icon {
-    
+
    }
 
    
