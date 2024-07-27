@@ -72,7 +72,7 @@ nav {
   display: flex;
   gap: 40px;
 }
-.nav-item {
+.nav-link {
   display: flex;
   color: #2e2f42;
   font-weight: 500;
@@ -85,8 +85,7 @@ nav {
   transition: color 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.nav-item::after {
+.nav-list-item:first-child ::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -95,21 +94,15 @@ nav {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  transform: translateY(100%);
-  transition: transform 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-item:hover,
-.nav-item:focus {
+.nav-list-item:first-child .nav-link {
   color: #404bbf;
 }
-
-.nav-item:hover:after,
-.nav-item:focus:after {
-  transform: translateY(0);
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
 }
-
 .address {
   font-style: normal;
   text-align: center;
@@ -273,11 +266,6 @@ button:focus {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-
-.team-card :first-child {
-  width: calc((100%-72px) / 4);
-}
-
 .our-team-list {
   display: flex;
   justify-content: space-evenly;
@@ -285,22 +273,21 @@ button:focus {
   flex-wrap: wrap;
 }
 .team-card-description {
-  padding: 32px 16px;
+  padding: 32px 0px;
   display: flex;
   flex-direction: column;
 }
-
 .team-card-soc-links {
   display: flex;
   justify-content: center;
   gap: 24px;
   padding-top: 8px;
 }
+.team-card:first-child {
+  width: calc((100% - 72px) / 4);
+}
 
 .team-soc-link-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 40px;
   height: 40px;
 }
