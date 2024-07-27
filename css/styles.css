@@ -317,6 +317,9 @@ button:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.team-card-soc-icon {
+  fill: #f4f4fd;
+}
 
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -462,4 +465,6 @@ button:focus {
   background-color: #31d0aa;
 }
 
-
+.footer-soc-icon {
+  fill: #f4f4fd;
+}
