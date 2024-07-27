@@ -317,11 +317,6 @@ button:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-card-soc-icon {
-  fill: #f4f4fd;
-  transition: fill 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -369,7 +364,7 @@ button:focus {
   top: 0%;
   left: 0;
   transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
+  transition: transform 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -467,8 +462,4 @@ button:focus {
   background-color: #31d0aa;
 }
 
-.footer-soc-icon {
-  fill: #f4f4fd;
-  transition: fill 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
