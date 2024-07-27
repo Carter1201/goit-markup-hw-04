@@ -82,6 +82,8 @@ nav {
 .nav-item:hover,
 .nav-item:focus {
   color: #404bbf;
+  transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address {
   font-style: normal;
@@ -96,6 +98,8 @@ nav {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -218,8 +222,6 @@ button:focus {
   align-items: center;
 }
 
-.feature-icon-style {
-}
 
 .features-item {
   flex-direction: column;
@@ -276,7 +278,8 @@ button:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-card-soc-icon:hover {
+.team-card-soc-icon:hover,
+.team-card-soc-icon:focus {
   background-color: #404bbf;
   border-radius: 50%;
 }
@@ -320,7 +323,8 @@ button:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item-box:hover .portfolio-item-text {
+.portfolio-list-item:hover .portfolio-item-text,
+.portfolio-list-item:focus .portfolio-item-text {
   transform: translateY(0);
 }
 
@@ -386,7 +390,8 @@ button:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-soc-icon:hover {
+.footer-soc-icon:hover,
+.footer-soc-icon:focus {
   background-color: #31d0aa;
   border-radius: 50%;
 }
