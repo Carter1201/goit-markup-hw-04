@@ -241,13 +241,6 @@ button:focus {
 }
 
 .features-item {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  width: 264px;
-}
-
-.features-item :first-child {
   width: calc(((100%-72px) / 4));
 }
 .our-team {
@@ -259,7 +252,7 @@ button:focus {
 .team-card {
   background-color: #fff;
   text-align: center;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -273,14 +266,12 @@ button:focus {
 }
 .team-card-description {
   padding: 32px 0px;
-  display: flex;
-  flex-direction: column;
 }
 .team-card-soc-links {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 .team-soc-link-item {
   width: 40px;
@@ -322,6 +313,7 @@ button:focus {
 }
 
 .portfolio-list-item {
+  width: calc((100% - 48px) / 3);
   box-shadow: none;
   transition: box-shadow 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
